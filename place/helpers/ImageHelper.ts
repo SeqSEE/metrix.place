@@ -53,7 +53,7 @@ export const cacheImages = async (
       return tups;
     })
     .sort((a, b) => {
-      if (a[0][0] !== b[0][0]) {
+      if (a[0][3] !== b[0][3]) {
         return a[0][3] - b[0][3]; // Sort by lowest block number first
       }
 
