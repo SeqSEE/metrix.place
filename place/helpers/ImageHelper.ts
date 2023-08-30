@@ -21,7 +21,6 @@ export const cacheImages = async (
   const place = getMetrixPlace(network, provider);
   const allLogs = (await place.getEventLogs()) as RPCEventLogs;
 
-  console.log(`>>>> ${allLogs.length}`);
   const logs = allLogs
 
     .filter((log) => {
