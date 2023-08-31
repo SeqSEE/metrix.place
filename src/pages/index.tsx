@@ -453,8 +453,8 @@ export default function Home() {
               src="/plc/latest.png"
               alt="logo"
               style={{
-                maxWidth: '75vh',
-                maxHeight: '75vh'
+                maxWidth: '96vw',
+                maxHeight: '80vh'
               }}
             />
           </div>
