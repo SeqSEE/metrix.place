@@ -153,3 +153,21 @@ body {
   transform: translateY(0px);
   background-color: rgb(81, 34, 107) !important;
 }
+
+.img-magnifier-container {
+  position:relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid purple;
+  background-color: #000;
+  image-rendering: pixelated;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  opacity: 0;
+  width: 160px;
+  height: 160px;
+  z-index: 1000;
+  transition: opacity 0.5s ease-in-out;
+}
