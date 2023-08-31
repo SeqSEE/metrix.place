@@ -171,3 +171,20 @@ body {
   z-index: 1000;
   transition: opacity 0.5s ease-in-out;
 }
+
+@media (max-width: 768px) {
+  .img-magnifier-glass {
+    /* position: absolute;
+    border: 3px solid purple;
+    background-color: #000;
+    image-rendering: pixelated;
+    cursor: none;
+    opacity: 0;
+    z-index: 1000;
+    transition: opacity 0.5s ease-in-out; */
+    width: 14vh;
+    height: 14vh;
+    margin-left: .5rem;
+    margin-right: .5rem;
+  }
+}
