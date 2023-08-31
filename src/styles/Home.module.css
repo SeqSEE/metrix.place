@@ -40,6 +40,7 @@
   text-transform: lowercase;
   text-shadow: 5px 5px 5px rgb(0, 0, 0);
   font-family: 'VT323';
+  margin-bottom: -1.5rem;
 }
 
 .h4 {
