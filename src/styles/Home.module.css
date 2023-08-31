@@ -42,6 +42,12 @@
   font-family: 'VT323';
 }
 
+.h4 {
+  color: rgb(147, 50, 158);
+  font-size: 2.2em;
+  font-family: 'VT323';
+}
+
 .main_box {
   display: flex;
   flex-direction: row;
