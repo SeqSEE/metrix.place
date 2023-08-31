@@ -21,7 +21,6 @@ export const cacheImages = async (
   const place = getMetrixPlace(network, provider);
   const allLogs = (await place.getEventLogs()) as RPCEventLogs;
 
-  console.log(`>>>> ${allLogs.length}`);
   const logs = allLogs
 
     .filter((log) => {
@@ -54,7 +53,7 @@ export const cacheImages = async (
       return tups;
     })
     .sort((a, b) => {
-      if (a[0][0] !== b[0][0]) {
+      if (a[0][3] !== b[0][3]) {
         return a[0][3] - b[0][3]; // Sort by lowest block number first
       }
 
